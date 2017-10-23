@@ -5,10 +5,13 @@ declared-services:
     plan: free
 applications:
 - path: ./server
+  buildpack: sdk-for-nodejs
+  command: npm start
+  timeout: 180
   memory: 256M
   instances: 1
   name: watson-calorie-counter
   disk_quota: 512M
-  random-route: false
+  random-route: true
   services:
   - wcc-visual-recognition

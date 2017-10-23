@@ -20,10 +20,10 @@
     "generator-starterkit-content-downloader": {
       "registry": "https://npm-registry.whitewater.ibm.com",
       "scope": "@arf",
-      "version": "latest"
+      "version": "0.0.x"
     },
     "generator-ibm-cloud-enablement": {
-      "version": "latest"
+      "version": "0.0.x"
     }
   },
   "requiredCapabilities": [
